@@ -19,11 +19,11 @@ I'm planning to become a software engineer, as this sphere allows creating meani
 example code
 ```
 
-# Work expirence
+## Work experience
 **JSC "Belselelectrosetstroi", Minsk, Belarus 08.2019-present**\
 *electrical design engineering*
 
-My future projects will be avalible with this [link](https://github.com/vandrouker)
+My future projects will be available with this [link](https://github.com/vandrouker)
 
 ## Education
 **(2014-2019) BNTU, faculty of power engineering**
