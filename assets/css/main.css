@@ -1,0 +1,185 @@
+body {
+  margin-top: 30px;
+  width: 1200px;
+  height: 100%;
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+  background: #D8D8D8;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  display: flex;
+}
+
+.side-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  color: rgb(242, 242, 242);
+  background: rgb(70, 70, 70);
+}
+
+.photo {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 4px solid white;
+}
+
+main {
+  flex: 2;
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column; 
+  color: #464646;
+}
+
+.block-name-1 {
+  color: rgb(70, 70, 70);
+  background: white;
+  border: solid white;
+  border-width: 5px 50px;
+}
+
+.block-name-2 {
+  color: rgb(70, 70, 70);
+  background: white;
+  border: solid white;
+  border-width: 5px 30px;
+}
+
+.block-name-3 {
+  color: rgb(70, 70, 70);
+  background: white;
+  border: solid white;
+  border-width: 5px 70px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 1.4em;
+  margin-block-start: 0.2em;
+  margin-block-end: 0.2em;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  width: 250px;
+}
+
+.link{
+  min-width: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.link:hover { 
+  text-decoration: underline; 
+ }
+
+.logo {
+  max-width: 20px;
+  padding-right: 10px;
+}
+
+.circle-container {
+  display: flex;
+  width: 150px;
+  height: 20px;
+  justify-content: space-between;
+}
+
+.skill-name {
+  font-size: 1.1em;
+  padding-right: 10px;
+}
+
+#skills{
+  margin-left: -40px;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.circle-skills {
+  width: 15px;
+  height: 15px;
+  border: 2px solid;
+  border-radius: 50%;
+  background: none;
+}
+
+#color-circle {
+  background-color: white;
+}
+
+h1 {
+  font-size: 3em;
+  font-style: normal;
+  align-self: flex-start;
+  margin-block-start: 0.5em;
+  margin-block-end: -0.2em;
+}
+
+h3{
+  font-size: 1.2em;
+  align-self: flex-start;
+  margin-block-start: -0.2em;
+  margin-block-end: 0.5em;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+}
+
+section {
+  margin: -5% 15% 0% 10%;
+}
+
+.head-section {
+  margin-left: 10%;
+  margin-right: 15%;
+  margin-bottom: 0%;
+}
+h4 {
+  font-size: 1.75em;
+  border-bottom: 2px solid;
+  margin-block-start: 1.33em;
+  margin-block-end: 0em;
+}
+
+p {
+  margin-block-start: 0.1em;
+  margin-block-end: 0em;
+}
+
+.last-paragraph{
+  margin-block-end: 0.5em;
+}
+.logo-rss {
+  max-width: 100px;
+}
+
+h5 {
+  font-size: 1.5em;
+  font-style: bold;
+  color: white;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(100, 100, 100);
+  height: 80px;
+  width: auto;
+}
