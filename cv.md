@@ -16,7 +16,9 @@ I'm planning to become a software engineer, as this sphere allows creating meani
 
 ## Code example
 ```
-example code
+function solution(str){
+ return str.split("").reverse().join(""); 
+}
 ```
 
 ## Work experience
